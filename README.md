@@ -34,21 +34,17 @@ class Employee
     {
         Name=nam;
         Year=years;
-        Address=addr;
-    }
+        Address=addr;}
     void Sam()
     {
-        System.out.println(Name+ " " +Year + " " +Address);
-    }
+        System.out.println(Name+ " " +Year + " " +Address); }
     void Robert()
     {
-        System.out.println(Name+ " " +Year + " " +Address);
-    }
+        System.out.println(Name+ " " +Year + " " +Address);}
     void John()
     {
         System.out.println(Name+ " "+Year + " " +Address);
-    }
-}
+    }}
 class EmployeeDetails
 {
     public static void main(String args[])
@@ -60,9 +56,7 @@ class EmployeeDetails
         e1.Robert();
         Employee e2=new Employee("John        ", 2002, "        70F-WallsStreet");
         e2.Sam();
-    }
-}
-
+    }}
 ```
 
 ## OUTPUT:
